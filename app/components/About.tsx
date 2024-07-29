@@ -5,7 +5,7 @@ import about2 from '@/app/asset/about2.webp'
 
 const About = () => {
     return (
-        <div className='flex mx-10 '>
+        <div className='flex mx-10'>
             <main className='flex flex-col pt-20 ml-40 mr-16 gap-5 text-gray-500 w-[440px]'>
                 <h2 className='flex text-black text-6xl'>ArchLab</h2>
                 <p>A small river named Duden flows by their place and supplies
@@ -27,29 +27,29 @@ const About = () => {
                     <span>BE PART OF OUR BUSINESS</span>
                     <h2 className='text-3xl font-semibold mt-3'>Request A Quote</h2>
                     <main className='flex flex-col gap-10 pt-6 text-white'>
-                    <div className='mt-'>
-                        <input className='text-black outline-none bg-transparent w-full border-b-2 border-white' type='text' placeholder='First Name' />
-                    </div>
+                        <div className='mt-'>
+                            <input className='text-black outline-none bg-transparent w-full border-b-2 border-white' type='text' placeholder='First Name' />
+                        </div>
 
-                    <div className=''>
-                        <input className='text-black outline-none bg-transparent w-full border-b-2 border-white' type='text' placeholder='Last Name' />
-                    </div>
+                        <div className=''>
+                            <input className='text-black outline-none bg-transparent w-full border-b-2 border-white' type='text' placeholder='Last Name' />
+                        </div>
 
-                    <div className=''>
-                        <input className='text-black outline-none bg-transparent w-full border-b-2 border-white' type='text' placeholder='Select Your Service' />
-                    </div>
+                        <div className=''>
+                            <input className='text-black outline-none bg-transparent w-full border-b-2 border-white' type='text' placeholder='Select Your Service' />
+                        </div>
 
-                    <div className=''>
-                        <input className='text-black outline-none bg-transparent w-full border-b-2 border-white' type='number' placeholder='Phone' />
-                    </div>
+                        <div className=''>
+                            <input className='text-black outline-none bg-transparent w-full border-b-2 border-white' type='number' placeholder='Phone' />
+                        </div>
 
-                    <div className=''>
-                        <input className='text-black outline-none bg-transparent w-full border-b-2 border-white' type='text' placeholder='Message' />
-                    </div>
+                        <div className=''>
+                            <input className='text-black outline-none bg-transparent w-full border-b-2 border-white' type='text' placeholder='Message' />
+                        </div>
 
                     </main>
                     <div className='flex justify-center mt-6'>
-                    <button className='bg-green-400 px-9 py-4 text-white rounded-md'>Request A Quote</button>
+                        <button className='bg-green-400 px-9 py-4 text-white rounded-md'>Request A Quote</button>
                     </div>
 
                 </div>
