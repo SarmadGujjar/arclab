@@ -6,11 +6,10 @@ import { HiOutlineHomeModern } from "react-icons/hi2";
 
 
 
-
 const Second = () => {
     return (
-        <div>
-            <main className='flex justify-center bg-lime-500 text-center py-20 text-white gap-6'>
+        <div className=''>
+            <main className='flex flex-col md:flex-row items-center justify-center bg-lime-500 text-center gap-10 py-20 text-white md:gap-6'>
                 <div className='flex flex-col gap-4'>
                     <i className='flex justify-center text-3xl'><SiAltiumdesigner /></i>
                     <h3 className='text-2xl'>Design Process</h3>
